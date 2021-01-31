@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "SoNguyenTo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SoNguyenTo</h2>
+@using (Html.BeginForm())
+{
+  <input type="text" name="SoN"placeholder="Nhập số N"  />
+  <button type="submit">Thực hiện</button>
+}
+@ViewBag.Tong
+@ViewBag.List
